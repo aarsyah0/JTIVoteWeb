@@ -1,0 +1,180 @@
+.main {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-right: 60px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #01BBF5; /* Warna biru muda saat input aktif */
+}
+
+/* Styling for File Input */
+.form-control[type="file"] {
+    padding: 12px;
+}
+
+/* Additional Styling for Placeholder Text */
+.form-control::placeholder {
+    color: #aaa;
+}
+
+/* Hover Effect */
+.form-control:hover {
+    border-color: #0097C5; /* Warna biru tua saat hover */
+}
+
+/* Focus Effect */
+.form-control:focus {
+    border-color: #01BBF5; /* Warna biru muda saat input aktif */
+}
+/* Styling for Election Results */
+h3 {
+    margin-top: 20px;
+}
+
+.table {
+    width: 90%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #1C2C4A; /* Warna biru tua dari kode warna yang diberikan */
+    color: #fff;
+}
+
+.table td {
+    background-color: #f5f5f5; /* Warna abu-abu muda */
+}
+
+/* Button Styling */
+.btn-success {
+    background-color: #01BBF5; /* Warna hijau dari kode warna yang diberikan */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success:hover {
+    background-color: #0097C5; /* Warna hijau tua saat hover */
+}
+
+/* Styling for Horizontal Election Cards */
+
+
+.card {
+    flex: 0 0 calc(33.333% - 15px);
+    margin-right: 15px;
+    max-width: 300px;
+    background-color: #1C2C4A; /* Warna biru tua dari kode warna yang diberikan */
+    border: 1px solid #223862; /* Warna biru tua dari kode warna yang diberikan */
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: 60;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.card .card-body {
+    height: 300px;
+    padding: 1rem;
+    background-color: #223862; /* Warna biru tua dari kode warna yang diberikan */
+}
+
+.card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #01BBF5; /* Warna hijau dari kode warna yang diberikan */
+}
+
+.card .card-text {
+    margin-bottom: 0.25rem;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.spacer {
+    flex: 0 0 15px;
+}
+/* ... (sebelumnya) ... */
+
+/* Styling for Candidate Photo */
+.candidate_photo {
+    max-width: 80px; /* Atur lebar maksimum sesuai kebutuhan */
+    max-height: 80px; /* Atur tinggi maksimum sesuai kebutuhan */
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* CSS untuk tombol Edit dan Delete */
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+/* CSS untuk memberikan warna pada tombol Edit */
+.btn-edit {
+    background-color: #FFD700; /* Warna kuning emas */
+    color: #000; /* Warna teks hitam */
+}
+
+/* CSS untuk memberikan warna pada tombol Delete */
+.btn-delete {
+    background-color: #FF4500; /* Warna merah oranye */
+    color: #fff; /* Warna teks putih */
+}
+@media (max-width: 700px) {
+    .card-container {
+        flex-wrap: wrap; /* Mengatur agar kartu bungkus ke baris berikutnya pada layar dengan lebar kurang dari 800px */
+    }
+}
+/* Add this CSS code to your styles.css file */
+
+/* Add this CSS code to your styles.css file */
+
